@@ -266,7 +266,7 @@ extern UniValue name_new(const UniValue& params, bool fHelp);
 extern UniValue name_firstupdate(const UniValue& params, bool fHelp);
 extern UniValue name_update(const UniValue& params, bool fHelp);
 extern UniValue name_checkdb(const UniValue& params, bool fHelp);
-extern UniValue name_buildunotrie(const UniValue& params, bool fHelp);
+extern UniValue getunotrieinfo(const UniValue& params, bool fHelp);
 
 // in rest.cpp
 extern bool HTTPReq_REST(AcceptedConnection *conn,
